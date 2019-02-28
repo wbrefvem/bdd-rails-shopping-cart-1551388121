@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 2
 image:
-  repository: draft
-  tag: dev
+  repository: 10.63.244.62:5000/wbrefvem/bdd-rails-shopping-cart-1551388121
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: bdd-rails-shopping-cart-1551388121
